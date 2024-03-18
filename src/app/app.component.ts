@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'projeto-cards';
+  onCardbuttonClicked() {
+    console.log('onCardButtonClicked');
+    // Chamada HTTP
+  }
 }
